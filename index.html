@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Services de jardinage Jacquemot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f9f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e88e5, #2e7d32);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 5px 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #1e88e5;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2e7d32;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .services, .galerie {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .galerie .card {
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: italic;
+      color: #777;
+    }
+
+    footer {
+      background: #1e88e5;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Services de jardinage Jacquemot</h1>
+  <p>Entretien & aménagement de vos espaces verts</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#accueil">Accueil</a></li>
+    <li><a href="#apropos">À propos</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#galerie">Galerie</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="accueil">
+  <h2>Accueil</h2>
+  <p style="text-align:center;">
+    Bienvenue chez <strong>Services de jardinage Jacquemot</strong>.  
+    Nous vous accompagnons dans l’entretien et la mise en valeur de vos jardins,
+    avec sérieux, passion et professionnalisme.
+  </p>
+</section>
+
+<section id="apropos">
+  <h2>À propos</h2>
+  <p>
+    Alexandre Jacquemot vous propose des services de jardinage adaptés à vos besoins.
+    Que ce soit pour un entretien régulier ou une intervention ponctuelle,
+    chaque prestation est réalisée avec soin et respect de l’environnement.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <div class="services">
+    <div class="card">🌿 Tonte de pelouse</div>
+    <div class="card">✂️ Taille de haies et arbustes</div>
+    <div class="card">🍂 Désherbage & nettoyage</div>
+    <div class="card">🌼 Entretien de massifs</div>
+    <div class="card">🌳 Petit élagage</div>
+    <div class="card">🧹 Nettoyage de jardin</div>
+  </div>
+</section>
+
+<section id="galerie">
+  <h2>Galerie / Réalisations</h2>
+  <div class="galerie">
+    <div class="card">Photo à venir</div>
+    <div class="card">Photo à venir</div>
+    <div class="card">Photo à venir</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p style="text-align:center;">
+    📞 Téléphone : 06 84 57 42 63<br>
+    📧 Email : alexandre.jacquemot83@outlook.com<br><br>
+    📍 Intervention locale – devis gratuit
+  </p>
+</section>
+
+<footer>
+  © 2026 – Services de jardinage Jacquemot
+</footer>
+
+</body>
+</html>
